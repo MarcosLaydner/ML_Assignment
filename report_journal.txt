@@ -1,0 +1,7 @@
+after counting, aproxmentely 56% of data is false, so that is our baseline acc
+
+after initial tests with the three models that give results close to the baseline acc,
+feature selection must be done to improve the model.
+
+Considering the first alteration was removing F20, my first ideia was to include it back,
+using the avg value of the present value to substitue missing entries. 

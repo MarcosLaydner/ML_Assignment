@@ -4,4 +4,5 @@ after initial tests with the three models that give results close to the baselin
 feature selection must be done to improve the model.
 
 Considering the first alteration was removing F20, my first ideia was to include it back,
-using the avg value of the present value to substitue missing entries. 
+using the avg value of the present value to substitue missing entries.
+

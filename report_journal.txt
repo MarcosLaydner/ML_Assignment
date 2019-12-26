@@ -6,3 +6,7 @@ feature selection must be done to improve the model.
 Considering the first alteration was removing F20, my first ideia was to include it back,
 using the avg value of the present value to substitue missing entries.
 
+after including F20, there was a slight improvement
+
+The next step was experimenting with back elimination, removing features and seeing what removal resulted in better
+performance.

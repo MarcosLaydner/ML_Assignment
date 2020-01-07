@@ -10,3 +10,9 @@ after including F20, there was a slight improvement
 
 The next step was experimenting with back elimination, removing features and seeing what removal resulted in better
 performance.
+
+afterwards, i tried feature selection methods implemented by sklearn, the RFECV which is a Feature ranking
+with recursive feature elimination and cross-validated selection of the best number of features. and SelectFromModel
+which is a Meta-transformer for selecting features based on importance weights. They had worse perfomance than just all
+features together. So i decided to stick with back elimination.
+
